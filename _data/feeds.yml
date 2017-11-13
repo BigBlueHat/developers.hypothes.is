@@ -70,7 +70,7 @@ paths:
   /stream.rss:
     get:
       produces:
-        application/rss+xml
+        - application/rss+xml
       summary: RSS 2.0 Feed Format output of most recent annotations
       parameters:
         - name: uri
